@@ -1,0 +1,2 @@
+g++ -std=c++14 -Wall -Wextra -O2 -Iinclude src\Exceptions.cpp src\Product.cpp src\StandardProduct.cpp src\PerishableProduct.cpp src\Supplier.cpp src\Invoice.cpp src\FilePersistence.cpp tests\test_runner.cpp -o bin\test_runner.exe
+>> .\bin\test_runner.exe
